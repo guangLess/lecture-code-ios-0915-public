@@ -34,6 +34,8 @@
 {
     // clear the board (i.e., make it all "")
 
+    @[ @"a", @"b", nil ];
+
     self.board = [@[ [@[ @"", @"", @"" ] mutableCopy],
                      [@[ @"", @"", @"" ] mutableCopy],
                      [@[ @"", @"", @"" ] mutableCopy] ] mutableCopy];
@@ -102,7 +104,7 @@
     {
         return self.board[0][0];
     }
-
+    
     return @"";
 }
 
