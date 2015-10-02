@@ -36,11 +36,13 @@
 //    beardOil.name = @"Tim's Fancy Beard Oil";
 //    beardOil.price = 10.99;
 //    beardOil.numberOfRatings = 50;
+    [beardOil discountWithPercentage:0.15];
 
     ShopItem *corgi = [[ShopItem alloc] initWithName:@"Corgi"];
 //    shibaInu.name = @"A Chubby Shiba Inu";
     corgi.price = 100;
     corgi.numberOfRatings = 5000000;
+    [corgi discountWithPercentage:.6];
 
 //    shibaInu.colorOptions = [[NSMutableArray alloc] init];
     [corgi.colorOptions addObject:@"Orange"];
