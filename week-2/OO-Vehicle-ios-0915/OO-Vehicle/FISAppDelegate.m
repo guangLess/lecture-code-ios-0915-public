@@ -7,8 +7,19 @@
 //
 
 #import "FISAppDelegate.h"
+#import "FISCar.h"
+#import "FISVehicle.h"
+
 
 @implementation FISAppDelegate
+
+// example 
++(NSString *)stringWithMinutesAndSecondsFromSeconds:(NSUInteger)seconds
+{
+    // do the division & stuff to spit out mm:ss
+    return @"15:32";
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -16,6 +27,20 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+
+    FISCar *volkswagen = [[FISCar alloc] init];
+    [volkswagen brake];
+
+    NSArray *favoriteBrands = [FISCar favoriteBrands];
+    NSLog(@"%@", favoriteBrands);
+
+    [NSString stringWithFormat:@"%@ %@", @"hello", @"world"];
+
+
+//    volkswagen.currentSpeed = 1000000;
+
+
     return YES;
 }
 
