@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Expecta+Collections.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Expecta.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-BlackJackTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Specta.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6A6DD352BA5C513212FA2840F79B7383</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8035D36F93B61B507109F86199DE89DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B91F6E79ADE68C9D33D8E5A3F3E9F8A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E97A02DD69143CF53448FEACFEE09AEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
