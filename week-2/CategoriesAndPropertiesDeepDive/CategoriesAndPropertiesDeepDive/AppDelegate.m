@@ -33,11 +33,18 @@
     dog.genus = @"Canis";
     dog.species = @"familiaris";
 
-    dog.cylinders = 8;
-    NSLog(@"cylinders: %lu", dog.cylinders);
+//    dog.breakOutOfZoo;
 
-    dog.cylinders = 7;
-    NSLog(@"cylinders: %lu", dog.cylinders);
+    NSMutableArray *stuff = [@[ @1, @2, @3 ] mutableCopy];
+    [stuff removeAllObjects];
+
+    NSLog(@"%@", dog.description);
+
+//    dog.cylinders = 8;
+//    NSLog(@"cylinders: %lu", dog.cylinders);
+//
+//    dog.cylinders = 7;
+//    NSLog(@"cylinders: %lu", dog.cylinders);
 
 //    dog.zooOfResidence.animals
 

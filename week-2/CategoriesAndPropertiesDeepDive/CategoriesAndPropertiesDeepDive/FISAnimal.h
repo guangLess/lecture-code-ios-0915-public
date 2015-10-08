@@ -22,4 +22,6 @@
 
 @property (nonatomic) NSUInteger cylinders;
 
+-(void)breakOutOfZoo;
+
 @end

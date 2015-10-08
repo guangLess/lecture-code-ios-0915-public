@@ -50,4 +50,14 @@
 //    return [self.genus isEqualToString:@"Canis"] && [self.species isEqualToString:@"familiaris"];
 //}
 
+-(NSString *)description
+{
+    return [NSString stringWithFormat:@"<FISAnimal %@ %@>", self.genus, self.species];
+}
+
+-(void)breakOutOfZoo
+{
+    NSLog(@"it's a jailbreak!");
+}
+
 @end
