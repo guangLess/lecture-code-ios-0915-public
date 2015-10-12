@@ -6,9 +6,9 @@
 //  Copyright © 2015 FIS. All rights reserved.
 //
 
-#import "FISViewController.h"
+#import "FISEpochViewController.h"
 
-@interface FISViewController ()
+@interface FISEpochViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *timeLabel;
 @property (weak, nonatomic) IBOutlet UIButton *button;

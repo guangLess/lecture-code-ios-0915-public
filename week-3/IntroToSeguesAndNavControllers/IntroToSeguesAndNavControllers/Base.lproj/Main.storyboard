@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15B30a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Lo1-Yu-aX0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+    </dependencies>
+    <scenes>
+        <!--Cuties-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="FISMasterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VC #1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HN1-Pl-niF">
+                                <rect key="frame" x="163" y="94" width="45" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EH1-dP-AfQ">
+                                <rect key="frame" x="36" y="152" width="145" height="114"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="bananadog"/>
+                                <connections>
+                                    <segue destination="rTi-NX-1hs" kind="show" identifier="BananaDogSegue" id="Oar-95-1Rq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d34-Yc-pgh">
+                                <rect key="frame" x="189" y="152" width="145" height="114"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="hedgehogbath"/>
+                                <connections>
+                                    <segue destination="rTi-NX-1hs" kind="show" identifier="HedgehogSegue" id="RpC-xZ-AyH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgz-fq-ffg">
+                                <rect key="frame" x="113" y="274" width="145" height="228"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="lobsterdog"/>
+                                <connections>
+                                    <segue destination="rTi-NX-1hs" kind="show" identifier="LobsterDogSegue" id="IpG-me-fIQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cuties" id="K84-J2-Tav"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1179.5" y="296.5"/>
+        </scene>
+        <!--Cutie.-->
+        <scene sceneID="qoW-jW-Goi">
+            <objects>
+                <viewController id="rTi-NX-1hs" customClass="FISDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ddY-nM-PZE"/>
+                        <viewControllerLayoutGuide type="bottom" id="GMu-xe-2sJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="agA-Cr-hPH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You tapped on" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgv-Ls-Ugp">
+                                <rect key="frame" x="132" y="72" width="111" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;animal name here&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VS2-dz-wVv">
+                                <rect key="frame" x="109" y="101" width="157" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yf-nb-0AN">
+                                <rect key="frame" x="164" y="201" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="rTi-NX-1hs" eventType="touchUpInside" id="3lD-nu-f8e"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.81568627449999997" green="0.50588235290000005" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cutie." id="oV3-yR-LC5"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="VS2-dz-wVv" id="7XN-cA-LhJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9EW-Ly-qVR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1706.5" y="296.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="34M-Pw-HQr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G6Q-Pw-t5Q" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="downloads" id="hAq-GI-vC1"/>
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="avB-d5-bfj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="barTintColor" red="0.092052072289999995" green="0.66839694979999997" blue="0.91344618799999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="owj-9g-hJu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sQs-3M-ITF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="716.5" y="296.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ycz-Ya-AVt">
+            <objects>
+                <viewController id="bRr-67-sCe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eJD-n9-Zss"/>
+                        <viewControllerLayoutGuide type="bottom" id="aQt-tx-k8p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oad-Xk-oZf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.36355090140000001" green="0.52429193259999995" blue="0.77835404870000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="Zg1-Uv-ubV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vrt-Tz-Kfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="587" y="2027"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iUV-d9-dgX">
+            <objects>
+                <viewController id="IvC-4o-suO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e6c-P5-ENY"/>
+                        <viewControllerLayoutGuide type="bottom" id="YQA-i2-3rz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ONT-r9-1JS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.078431372550000003" green="0.70196078429999997" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="lHD-BI-d27"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cUB-KT-MY6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="1607"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sFd-rR-eMP">
+            <objects>
+                <viewController id="ya3-Nv-czX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xms-6B-apl"/>
+                        <viewControllerLayoutGuide type="bottom" id="BLZ-sH-ssT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ug0-7L-m4n">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.078431372550000003" green="0.69803921570000005" blue="0.85098039219999999" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="PNa-mb-wKQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9UI-aS-puI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="946"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Sda-uI-ZOr">
+            <objects>
+                <tabBarController id="Lo1-Yu-aX0" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="UAe-bT-vsV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ya3-Nv-czX" kind="relationship" relationship="viewControllers" id="cHu-5n-otz"/>
+                        <segue destination="IvC-4o-suO" kind="relationship" relationship="viewControllers" id="1rg-BD-av2"/>
+                        <segue destination="bRr-67-sCe" kind="relationship" relationship="viewControllers" id="5ph-9z-zAZ"/>
+                        <segue destination="G6Q-Pw-t5Q" kind="relationship" relationship="viewControllers" id="F1f-Bt-qXb"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3hR-TS-jST" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="496" y="1277"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bananadog" width="500" height="373"/>
+        <image name="hedgehogbath" width="560" height="416"/>
+        <image name="lobsterdog" width="466" height="700"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Oar-95-1Rq"/>
+    </inferredMetricsTieBreakers>
+</document>
